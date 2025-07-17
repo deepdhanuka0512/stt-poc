@@ -81,15 +81,6 @@ stt-poc/
    pnpm run dev
    ```
 
-## API Key Setup
-
-To get your Speechmatics API key:
-
-1. Visit [Speechmatics](https://www.speechmatics.com/)
-2. Sign up for an account
-3. Navigate to your dashboard to get your API key
-4. Add it to the `.env` file in the `stt-backend` directory
-
 ## Service URLs
 
 - **Backend**: http://localhost:8080
