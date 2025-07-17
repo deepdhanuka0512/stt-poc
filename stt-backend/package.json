@@ -1,0 +1,27 @@
+{
+  "name": "stt-backend",
+  "version": "1.0.0",
+  "description": "JWT token API for Speechmatics real-time transcription",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speechmatics",
+    "jwt",
+    "stt",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.6.2+sha512.0e68307be4f7e17afa5186932d74a984f4bba24e21d843e46874041fa8fb512a00936d42cee780743d6740b9162700e766426e721a342db2a7b49fbd079c6551",
+  "dependencies": {
+    "@speechmatics/auth": "^0.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2"
+  }
+}

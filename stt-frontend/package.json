@@ -1,0 +1,21 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@speechmatics/real-time-client": "^7.0.2",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  },
+  "packageManager": "pnpm@8.6.2+sha512.0e68307be4f7e17afa5186932d74a984f4bba24e21d843e46874041fa8fb512a00936d42cee780743d6740b9162700e766426e721a342db2a7b49fbd079c6551"
+}
